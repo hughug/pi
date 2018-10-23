@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # this program sends emails to target address
 
-import smtplib
+import smtplib 
 
 def mailing(subject, content, target):
     
@@ -21,4 +21,4 @@ def mailing(subject, content, target):
     smtp.sendmail('mumeiprpr@gmail.com','%s'%target, message)
     smtp.quit()
 
-#mailing("hello", "are you okay", "cbywyy@gmail.com")
+# mailing("hello", "are you okay", "cbywyy@gmail.com")
