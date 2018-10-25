@@ -10,5 +10,5 @@ def gettemp():
    CelsiusTemp = float(t)/1000
    return CelsiusTemp
 
-cputemp = "CPU: "+'%.1f'%gettemp()+'°C'
-print(cputemp)
+#cputemp = "CPU: "+'%.1f'%gettemp()+'°C'
+#print(cputemp)
